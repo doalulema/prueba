@@ -6,5 +6,7 @@
     copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>sss.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
-  <genPackages prefix="Sss" disposableProviderFactory="true" ecorePackage="sss.ecore#/"/>
+  <genPackages prefix="Sss" disposableProviderFactory="true" ecorePackage="sss.ecore#/">
+    <genClasses ecoreClass="sss.ecore#//NewEClass1"/>
+  </genPackages>
 </genmodel:GenModel>
